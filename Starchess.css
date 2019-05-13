@@ -1,0 +1,107 @@
+body {
+    background-color: light grey;
+    text-align: center;
+}
+
+.cell {
+    width: 9vw;
+    height: 9vw;
+    display: inline-block;
+    margin: 0px;
+    max-width: 12vh;
+    max-height: 12vh;
+}
+
+#board-container {
+    background-color: gold;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.black  {
+    background-image: url("tie.png");
+    background-size: cover;
+}
+
+
+.red {
+     background-image: url("fighters.png");
+     background-size: cover;
+}
+
+
+.checker {
+    margin: 10%;
+    height: 80%;
+    width: 80%;
+}
+
+.pawn {
+    background-image: url("pawn.png");
+    background-size: cover;
+}
+
+.rook {
+    background-image: url("rook.png");
+    background-size: cover;
+}
+
+.knight {
+    background-image: url("knight.png");
+    background-size: cover;
+}
+
+.bishop {
+    background-image: url("bishop.png");
+    background-size: cover;
+}
+.king {
+    background-image: url("king.png");
+    background-size: cover;
+}
+.queen {
+    background-image: url("queen.png");
+    background-size: cover;
+}
+
+.Bpawn {
+    background-image: url("Bpawn.png");
+    background-size: cover;
+}
+
+.Brook {
+    background-image: url("rook.png");
+    background-size: cover;
+}
+
+.Bknight {
+    background-image: url("knight.png");
+    background-size: cover;
+}
+
+.Bbishop {
+    background-image: url("bishop.png");
+    background-size: cover;
+}
+.Bking {
+    background-image: url("king.png");
+    background-size: cover;
+}
+.Bqueen {
+    background-image: url("queen.png");
+    background-size: cover;
+}
+
+}
+
+ .selected {
+ border: solid .5px red
+ }
+ 
+ .jail {
+    
+     width: 6vw;
+    height: 6vw; 
+    display: inline-block;
+ }

@@ -1,0 +1,67 @@
+<html>
+
+<head>
+
+<title>StarChess</title>
+
+<meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="Starchess.css">
+<script src="StarChessStringI.js"></script>
+<script src="StarChessgamescript.js"></script>
+<script src="Element.js"></script>
+
+<script src="OutOplayscript.js"></script>
+
+
+
+</head>
+
+<body>
+        
+    <br>
+    <div id="name"><img style="float:center;" width:"1000" height="200" padding:"30px" src="StarChessheader.png"/></div>
+    <table align="center" border="2px black">
+    <tr>
+            <td class="label_col" style="Impact">Player1:</td>
+           
+           <td class="input_col"><input name="lastName" id="lastName" type="text" onblur="validateLastName ();"></td>
+           
+           <td class="feedback_col"><span id="lastNamePrompt">&nbsp;</span></td>
+           
+           </tr>
+           </table>
+<br>
+<div id="out-of-play-black" class="out-of-play"></div>
+ <div id="board-container">
+</div>
+<div id="out-of-play-red" class="out-of-play"></div>
+<br>
+<br>
+<table align="center" border="2px black">
+        <tr>
+         <td class="label_col">Player2:</td>
+        
+        <td class="input_col"><input name="firstName" id="firstName" type="text" onblur="validateFirstName ();"></td>
+        
+        <td class="feedback_col"><span id="firstNamePrompt">&nbsp;</span></td>
+        
+        </tr>
+</table>
+        
+<div id="number"><img style="float:center;" width:"500" height="100" padding:"30px" src="Number.png"/></div>
+<br>
+<br>
+<br>
+<br>
+
+</body>
+
+<script> 
+
+</script>
+
+</html>
+
